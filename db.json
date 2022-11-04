@@ -1,0 +1,55 @@
+{
+  "guardiao": [
+    {
+      "id": 1,
+      "Sistema": {
+        "id": 1000,
+        "Nome": "X",
+        "Sigla": "PJUR",
+        "Hash": "AAA",
+        "Usuario": {
+          "Id": 1,
+          "Nome": "Artz",
+          "EmailPrincipal": "artz@go.com",
+          "Cpf": "030303",
+          "Entidade": {
+            "Id": 666,
+            "Codigo": "20202",
+            "Nome": "Enti1",
+            "Sigla": "Ent1",
+            "CodigoConsist": "Ent1"
+          },
+          "Lotacoes": [
+            {
+              "Id": 1,
+              "Nome": "Lotacao 1",
+              "Sigla": "Lot",
+              "Tree": "LotX/Lot",
+              "Principal": true,
+              "Entidade": {
+                "Id": 666
+              }
+            }
+          ]
+        },
+        "Grupos": [
+          {
+            "Id": 1,
+            "Nome": "Grupo 1",
+            "Detalhes": "Detalhes do grupo 1",
+            "Ativo": true,
+            "Entidades": [
+              {
+                "Id": 1,
+                "Codigo": "aaa",
+                "Nome": "Nome Da Entidade",
+                "Sigla": "Sigla da Entidade",
+                "CodigoConsist": "CODIGO"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
