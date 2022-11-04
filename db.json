@@ -35,7 +35,7 @@
         "Grupos": [
           {
             "Id": 1,
-            "Nome": "Grupo 1",
+            "Nome": "Administrador",
             "Detalhes": "Detalhes do grupo 1",
             "Ativo": true,
             "Entidades": [
